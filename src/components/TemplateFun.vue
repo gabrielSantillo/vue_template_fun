@@ -14,11 +14,7 @@
 
         methods: {
             changePost() {
-                if(this.show_post === true) {
-                    this.show_post = false
-                } else {
-                    this.show_post = true
-                }
+                    this.show_post = !this.show_post;
             }
         },
 
